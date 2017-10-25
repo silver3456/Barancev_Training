@@ -1,0 +1,15 @@
+#Ignore TARGET
+
+target/
+.classpath
+.settings/
+.project
+.gradle/
+.idea/
+.txt
+build.gradle
+gradle/
+gradlew
+gradlew.bat
+out/
+settings.gradle
