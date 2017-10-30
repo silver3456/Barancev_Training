@@ -1,5 +1,6 @@
 package ru.stqa.pft.addressbook.tests;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class GroupDeletionTests extends TestBase {
@@ -10,7 +11,7 @@ public class GroupDeletionTests extends TestBase {
 
        app.getNavigationHelper().gotoGroupPage();
         app.getGroupHelper().deleteSelectedGroups();
-        app.getGroupHelper().returnToGroupPage();
+        app.getGroupHelper().returnToGroupPage(By.linkText("group page"));
     }
 
 }
